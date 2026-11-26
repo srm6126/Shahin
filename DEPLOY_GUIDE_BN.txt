@@ -1,0 +1,11 @@
+SHAHIN APP - Vercel Deployment
+
+1) ZIP Extract করুন।
+2) GitHub Repository-র Root-এ index.html, app.js, style.css, package.json, vercel.json, api/, sql/, manifest.webmanifest আপলোড করুন। ZIP ফাইল একা আপলোড করবেন না।
+3) Vercel-এ Add New > Project > GitHub Repository Import করুন।
+4) Framework Preset: Other.
+5) Build Command: npm run build (অথবা ফাঁকা); Output Directory: ফাঁকা/Root.
+6) Deploy.
+7) AI Scanner/Support-এর জন্য Settings > Environment Variables-এ GEMINI_API_KEY যোগ করে Redeploy.
+
+নোট: এটি Preview/Starter Release। Local browser storage, demo Role UI, এবং প্রাথমিক SQL foundation রয়েছে। Production-এ ব্যবহারের আগে Supabase Auth/RLS integration, row-level permissions, atomic stock/sales workflow, duplicate challan prevention, cloud sync ও পূর্ণ QA সম্পন্ন করতে হবে।

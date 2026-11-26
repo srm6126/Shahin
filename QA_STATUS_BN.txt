@@ -1,0 +1,10 @@
+QA STATUS
+- JavaScript syntax: যাচাই করা হবে build validation-এ
+- ZIP integrity: package তৈরির পর যাচাই
+- UI: Static responsive HTML/CSS/JS
+- Business calculations: DSR 7-row formula implemented in browser app
+- Production integration: NOT COMPLETE
+- Supabase live connection: NOT CONFIGURED
+- Secure production authentication/RLS role matrix: NOT COMPLETE
+- Atomic end-to-end sales/returns/stock workflow: NOT COMPLETE
+- Gemini AI: API code included; requires GEMINI_API_KEY and live deployment test
