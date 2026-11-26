@@ -1,10 +1,8 @@
-QA STATUS
-- JavaScript syntax: যাচাই করা হবে build validation-এ
-- ZIP integrity: package তৈরির পর যাচাই
-- UI: Static responsive HTML/CSS/JS
-- Business calculations: DSR 7-row formula implemented in browser app
-- Production integration: NOT COMPLETE
-- Supabase live connection: NOT CONFIGURED
-- Secure production authentication/RLS role matrix: NOT COMPLETE
-- Atomic end-to-end sales/returns/stock workflow: NOT COMPLETE
-- Gemini AI: API code included; requires GEMINI_API_KEY and live deployment test
+QA STATUS — BUILD FIX
+- package.json build script: node build.mjs
+- build.mjs creates dist/ and copies index.html, app.js, style.css, manifest.webmanifest
+- vercel.json outputDirectory: dist
+- Vercel STATIC_BUILD_NO_OUTPUT fix: included
+- Production Supabase/Auth/RLS/Cloud Sync: NOT COMPLETE
+- AI Scanner/Support: requires GEMINI_API_KEY and live deployment test
+- Business workflow end-to-end QA: NOT COMPLETE

@@ -6,7 +6,7 @@
 
 1. ZIP Extract করুন। `index.html`, `app.js`, `style.css`, `api/`, `sql/` যেন Repository-র Root-এ থাকে।
 2. GitHub-এ সব ফাইল Root-এ Upload করে Commit করুন।
-3. Vercel-এ ওই Repository Import/Connect করুন। Framework Preset: Other; Build Command ফাঁকা বা `npm run build`; Output Directory ফাঁকা/Root; Install Command `npm install`।
+3. Vercel-এ ওই Repository Import/Connect করুন। Framework Preset: Other; Build Command ফাঁকা বা `npm run build`; Output Directory dist; Install Command `npm install`।
 4. Deploy শেষে Vercel-এর Visit দিয়ে খুলুন।
 
 ## Preview-তে বর্তমানে যা কাজ করে

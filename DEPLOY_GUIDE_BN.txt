@@ -4,7 +4,7 @@ SHAHIN APP - Vercel Deployment
 2) GitHub Repository-র Root-এ index.html, app.js, style.css, package.json, vercel.json, api/, sql/, manifest.webmanifest আপলোড করুন। ZIP ফাইল একা আপলোড করবেন না।
 3) Vercel-এ Add New > Project > GitHub Repository Import করুন।
 4) Framework Preset: Other.
-5) Build Command: npm run build (অথবা ফাঁকা); Output Directory: ফাঁকা/Root.
+5) Build Command: npm run build (অথবা ফাঁকা); Output Directory: dist.
 6) Deploy.
 7) AI Scanner/Support-এর জন্য Settings > Environment Variables-এ GEMINI_API_KEY যোগ করে Redeploy.
 
